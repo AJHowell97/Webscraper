@@ -1,0 +1,15 @@
+C:\Users\Roger\source\repos\WebScraper\WebScraper\bin\Debug\netcoreapp3.1\WebScraper.exe
+C:\Users\Roger\source\repos\WebScraper\WebScraper\bin\Debug\netcoreapp3.1\WebScraper.deps.json
+C:\Users\Roger\source\repos\WebScraper\WebScraper\bin\Debug\netcoreapp3.1\WebScraper.runtimeconfig.json
+C:\Users\Roger\source\repos\WebScraper\WebScraper\bin\Debug\netcoreapp3.1\WebScraper.runtimeconfig.dev.json
+C:\Users\Roger\source\repos\WebScraper\WebScraper\bin\Debug\netcoreapp3.1\WebScraper.dll
+C:\Users\Roger\source\repos\WebScraper\WebScraper\bin\Debug\netcoreapp3.1\WebScraper.pdb
+C:\Users\Roger\source\repos\WebScraper\WebScraper\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Roger\source\repos\WebScraper\WebScraper\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\Roger\source\repos\WebScraper\WebScraper\obj\Debug\netcoreapp3.1\WebScraper.AssemblyInfoInputs.cache
+C:\Users\Roger\source\repos\WebScraper\WebScraper\obj\Debug\netcoreapp3.1\WebScraper.AssemblyInfo.cs
+C:\Users\Roger\source\repos\WebScraper\WebScraper\obj\Debug\netcoreapp3.1\WebScraper.csproj.CoreCompileInputs.cache
+C:\Users\Roger\source\repos\WebScraper\WebScraper\obj\Debug\netcoreapp3.1\WebScraper.csproj.CopyComplete
+C:\Users\Roger\source\repos\WebScraper\WebScraper\obj\Debug\netcoreapp3.1\WebScraper.dll
+C:\Users\Roger\source\repos\WebScraper\WebScraper\obj\Debug\netcoreapp3.1\WebScraper.pdb
+C:\Users\Roger\source\repos\WebScraper\WebScraper\obj\Debug\netcoreapp3.1\WebScraper.genruntimeconfig.cache
