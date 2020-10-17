@@ -43,9 +43,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNet.WebPages": {
+            "HtmlAgilityPack": {
               "target": "Package",
-              "version": "[3.2.7, )"
+              "version": "[1.11.24, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",

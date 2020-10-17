@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Threading;
-using System.Web.Helpers;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System.Linq;
+using System.Threading;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -25,9 +20,13 @@ namespace WebScrapeApi.Controllers
         [HttpGet]
         public RefuseColletionInfoModel Get(string houseNo, string postcode)
         {
-            driver = new ChromeDriver();
-            driver.Navigate().GoToUrl(url);
+            //starting the browser in headless mode
+            var chromeOptions = new ChromeOptions();
+            chromeOptions.AddArguments("headless");
 
+            using var driver = new ChromeDriver(chromeOptions);
+            driver.Navigate().GoToUrl(url);
+            
             var element = driver.FindElement(By.Id("postcode"));
             var postcodeSearchButton = driver.FindElement(By.Id("postcodeLookupButton"));
             driver.FindElement(By.ClassName("cc_b_ok")).Click();
@@ -47,7 +46,6 @@ namespace WebScrapeApi.Controllers
             var NextCollectionType = nextCollect.FindElement(By.ClassName("panel-heading")).Text;
             var NextCollectionDate = nextCollect.FindElement(By.ClassName("collectionDate")).Text;
 
-            driver.Quit();
             var result = new RefuseColletionInfoModel
             {
                 CollectionDate = NextCollectionDate,

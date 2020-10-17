@@ -2,32 +2,13 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Microsoft.AspNet.Razor/3.2.7": {
+      "HtmlAgilityPack/1.11.24": {
         "type": "package",
         "compile": {
-          "lib/net45/System.Web.Razor.dll": {}
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {}
         },
         "runtime": {
-          "lib/net45/System.Web.Razor.dll": {}
-        }
-      },
-      "Microsoft.AspNet.WebPages/3.2.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.7, 3.3.0)",
-          "Microsoft.Web.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/System.Web.Helpers.dll": {},
-          "lib/net45/System.Web.WebPages.Deployment.dll": {},
-          "lib/net45/System.Web.WebPages.Razor.dll": {},
-          "lib/net45/System.Web.WebPages.dll": {}
-        },
-        "runtime": {
-          "lib/net45/System.Web.Helpers.dll": {},
-          "lib/net45/System.Web.WebPages.Deployment.dll": {},
-          "lib/net45/System.Web.WebPages.Razor.dll": {},
-          "lib/net45/System.Web.WebPages.dll": {}
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {}
         }
       },
       "Microsoft.CSharp/4.3.0": {
@@ -73,15 +54,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.Web.Infrastructure/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -1448,38 +1420,52 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNet.Razor/3.2.7": {
-      "sha512": "BpWEZ+Ys7g9VAkbAfpG5jr5A1fKcmadCCXv3fYfps5YfTVABJIGV4uc9yvmXKxsNsjL+BzDld2gs+xtgT2gg1g==",
+    "HtmlAgilityPack/1.11.24": {
+      "sha512": "DLcytINO8EfCdBgMGsaz8Tvdgu2Aewoo2XX7WfZuRG9cBQRtbm8JZ4/sMRtFvzehjdIDqubdlQb8TqNfjRMEWg==",
       "type": "package",
-      "path": "microsoft.aspnet.razor/3.2.7",
+      "path": "htmlagilitypack/1.11.24",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/System.Web.Razor.dll",
-        "lib/net45/System.Web.Razor.xml",
-        "microsoft.aspnet.razor.3.2.7.nupkg.sha512",
-        "microsoft.aspnet.razor.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.WebPages/3.2.7": {
-      "sha512": "2jwZFB7PvY+tbdz0ZP4iEo7gMrJxkCQUzoGLh6swUc6ZXl6DoKyDslmGcC/j9PFmJXCRMVIqtRorlPSMU2DuRA==",
-      "type": "package",
-      "path": "microsoft.aspnet.webpages/3.2.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Content/Web.config.install.xdt",
-        "Content/Web.config.uninstall.xdt",
-        "lib/net45/System.Web.Helpers.dll",
-        "lib/net45/System.Web.Helpers.xml",
-        "lib/net45/System.Web.WebPages.Deployment.dll",
-        "lib/net45/System.Web.WebPages.Deployment.xml",
-        "lib/net45/System.Web.WebPages.Razor.dll",
-        "lib/net45/System.Web.WebPages.Razor.xml",
-        "lib/net45/System.Web.WebPages.dll",
-        "lib/net45/System.Web.WebPages.xml",
-        "microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
-        "microsoft.aspnet.webpages.nuspec"
+        "htmlagilitypack.1.11.24.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net35/HtmlAgilityPack.dll",
+        "lib/Net35/HtmlAgilityPack.pdb",
+        "lib/Net35/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.3/HtmlAgilityPack.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.xml",
+        "lib/netstandard1.6/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.6/HtmlAgilityPack.dll",
+        "lib/netstandard1.6/HtmlAgilityPack.pdb",
+        "lib/netstandard1.6/HtmlAgilityPack.xml",
+        "lib/netstandard2.0/HtmlAgilityPack.deps.json",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/HtmlAgilityPack.pdb",
+        "lib/netstandard2.0/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.XML",
+        "lib/uap10.0/HtmlAgilityPack.dll",
+        "lib/uap10.0/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.pri"
       ]
     },
     "Microsoft.CSharp/4.3.0": {
@@ -1568,18 +1554,6 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
-      ]
-    },
-    "Microsoft.Web.Infrastructure/1.0.0": {
-      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
-      "type": "package",
-      "path": "microsoft.web.infrastructure/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/Microsoft.Web.Infrastructure.dll",
-        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
-        "microsoft.web.infrastructure.nuspec"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -5240,7 +5214,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.AspNet.WebPages >= 3.2.7",
+      "HtmlAgilityPack >= 1.11.24",
       "Selenium.WebDriver >= 3.141.0"
     ]
   },
@@ -5288,9 +5262,9 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Microsoft.AspNet.WebPages": {
+          "HtmlAgilityPack": {
             "target": "Package",
-            "version": "[3.2.7, )"
+            "version": "[1.11.24, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
@@ -5318,37 +5292,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Razor 3.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.Razor",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages 3.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.WebPages",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Web.Infrastructure",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

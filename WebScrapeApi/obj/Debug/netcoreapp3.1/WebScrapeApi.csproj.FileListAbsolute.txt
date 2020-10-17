@@ -7,18 +7,11 @@ C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\WebS
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\WebScrapeApi.runtimeconfig.dev.json
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\WebScrapeApi.dll
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\WebScrapeApi.pdb
-C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
-C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
-C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
-C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
-C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
-C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.csprojAssemblyReference.cache
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.AssemblyInfoInputs.cache
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.AssemblyInfo.cs
-C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.csproj.CoreCompileInputs.cache
-C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.RazorTargetAssemblyInfo.cache
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.csproj.CopyComplete
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\staticwebassets\WebScrapeApi.StaticWebAssets.Manifest.cache
@@ -26,3 +19,6 @@ C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\stat
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.dll
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.pdb
 C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.genruntimeconfig.cache
+C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.csproj.CoreCompileInputs.cache
+C:\Users\Roger\source\repos\WebScraper\WebScrapeApi\obj\Debug\netcoreapp3.1\WebScrapeApi.MvcApplicationPartsAssemblyInfo.cache
